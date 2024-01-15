@@ -1,0 +1,31 @@
+#include <iostream>
+
+int main() {
+    int size, index, maxIndex, minIndex, maxElement = -1, minElement = 99;
+    
+    // Read the size of the array
+    std::cin >> size;
+    
+    for (index = 0; index < size; ++index) {
+        int element;
+        std::cin >> element;
+
+        // Check for the maximum element
+        if (element > maxElement) {
+            maxElement = element;
+            maxIndex = index;
+        }
+
+        // Check for the minimum element
+        if (element <= minElement) {
+            minElement = element;
+            minIndex = index;
+        }
+    }
+
+    // Calculate and output the result
+    int result = maxIndex + size - minIndex - 1;
+    std::cout << result;
+
+    return 0;
+}
