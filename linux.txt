@@ -1,0 +1,69 @@
+Navigation:
+
+ls: List files and directories.
+cd: Change directory.
+pwd: Print working directory.
+cp: Copy files or directories.
+mv: Move or rename files or directories.
+rm: Remove files or directories.
+mkdir: Create a new directory.
+File Manipulation:
+
+cat: Display the contents of a file.
+nano or vim: Text editors.
+head and tail: Display the beginning or end of a file.
+grep: Search for a pattern in a file.
+chmod: Change file permissions.
+chown: Change file owner and group.
+System Information:
+
+uname -a: Display system information.
+df -h: Display disk space usage.
+free -m: Display free and used memory.
+top or htop: Display real-time system statistics.
+ps: List currently running processes.
+User Management:
+
+whoami: Display the current user.
+passwd: Change user password.
+useradd and userdel: Add or delete a user.
+usermod: Modify user properties.
+su: Switch user.
+Package Management:
+
+apt (Debian/Ubuntu) or yum (RHEL/CentOS): Package management commands.
+apt-get install or yum install: Install a package.
+apt-get remove or yum remove: Remove a package.
+apt-get update or yum update: Update package lists.
+apt-get upgrade or yum upgrade: Upgrade installed packages.
+Network Commands:
+
+ifconfig or ip a: Display network interfaces.
+ping: Check network connectivity.
+traceroute or tracepath: Trace the route that packets take to reach a network host.
+netstat: Display network connections, routing tables, interface statistics, masquerade connections, and multicast memberships.
+ss: Another utility to investigate sockets.
+Compression and Archives:
+
+tar: Create, view, or extract tar archives.
+tar -cvf archive.tar files: Create a tar archive.
+tar -xvf archive.tar: Extract files from a tar archive.
+tar -tvf archive.tar: View the contents of a tar archive.
+gzip or gunzip: Compress or decompress files.
+gzip file.txt: Compress a file.
+gunzip file.txt.gz: Decompress a file.
+Process Management:
+
+ps: Display information about processes.
+ps aux: Display all processes.
+kill: Terminate a process.
+kill -9 <process_id>: Forcefully terminate a process.
+System Control:
+
+systemctl: Control the systemd system and service manager.
+systemctl start, systemctl stop, systemctl restart: Start, stop, or restart services.
+systemctl status: Display the status of a service.
+SSH (Secure Shell):
+
+ssh: Connect to a remote server.
+ssh user@hostname: Connect to a remote server.
